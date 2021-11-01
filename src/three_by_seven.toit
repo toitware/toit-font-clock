@@ -4,7 +4,7 @@
 // The width of the characters is normally 4 for a single
 //   pixel character gap.
 // Spaces are only one pixel wide for precise placement.
-// Punctuation is variable width, but many are missing
+// Punctuation is variable width, but many are unreadable
 //   like #, $, @, etc.  The only non-ASCII character is the
 //   degree sign.
 // There are no descenders.
