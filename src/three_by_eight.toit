@@ -1,15 +1,13 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-/**
-A font where most things are 3x7 in a segment LCD style.
-The width of the characters is normally 4 for a single
-  pixel character gap.
-Spaces are only one pixel wide for precise placement.
-Punctuation is variable width, but many are missing
-  like #, $, @, etc.  The only non-ASCII character is the
-  degree sign.
-Descenders go one pixel below the line making the font 3x8.
-*/
+// A font where most things are 3x7 in a segment LCD style.
+// The width of the characters is normally 4 for a single
+//   pixel character gap.
+// Spaces are only one pixel wide for precise placement.
+// Punctuation is variable width, but many are missing
+//   like #, $, @, etc.  The only non-ASCII character is the
+//   degree sign.
+// Descenders go one pixel below the line making the font 3x8.
 
 /// Bitmaps for the Digital Clock 3x7 font
 
@@ -18,15 +16,15 @@ Descenders go one pixel below the line making the font 3x8.
 /**
 The characters from the ASCII Unicode block in the Digital Clock 3x7 font.
   (See https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block) )
-This block has 95 assigned code points, and 89 of
-  them are present in this font.
+This block has 95 assigned code points, and they are all
+  present in this font.
   This block contains characters in the range 0x0000-0x007f.
-  The bitmaps for this block in this font take up about 1184 bytes.
+  The bitmaps for this block in this font take up about 1258 bytes.
 */
 ASCII ::= #[
   0x97,0xf0,0x17,0x70,
-  0xa0,0x4,0x0,0x0,
-  0xdd,0x1c,0x17,0xbe,0x13,0xe8,0xd5,0x60,0xa0,0x7d,0x72,0x69,0x3f,0xc1,0xc0,0x6b,0x0,0xfc,0xbc,0xe6,0x65,0x8f,0x12,0x30,0x2c,0x33,0xd7,0xbe,0x83,0x90,0xdd,0x92,
+  0xea,0x4,0x0,0x0,
+  0xb,0x10,0x6c,0xe,0x82,0xc0,0x8b,0x61,0x1f,0xb3,0xf3,0x2,0xfe,0xe1,0x8c,0x7e,0x92,0x39,0x7c,0x2b,0xe2,0x6b,0xe7,0xf0,0x94,0x62,0xcd,0x9,0x12,0xdc,0xd2,0xd4,
   0x92, 'D','i','g','i','t','a','l',' ','C','l','o','c','k',' ',
   '3','x','7',0,
   0x9d, 'C','o','p','y','r','i','g','h','t',' ','(','C',')',' ',
@@ -47,14 +45,22 @@ ASCII ::= #[
   33,3,186,14,184,
   4,3,2,0,5,
   34,2,40,16,
+  4,3,6,0,0,
+  35,5,40,52,160,116,160,
+  4,3,7,0,0,
+  36,8,16,47,184,224,8,14,15,128,
   4,3,7,0,0,
   37,6,40,2,7,49,40,0,
+  4,3,7,0,0,
+  38,5,48,22,74,7,64,
   2,1,2,0,5,
   39,1,185,
   3,2,7,0,0,
   40,3,16,50,10,
   3,2,7,0,0,
   41,3,186,160,192,
+  4,3,5,0,2,
+  42,5,16,10,12,40,48,
   4,3,3,0,2,
   43,3,16,47,248,
   2,2,2,255,0,
@@ -97,6 +103,8 @@ ASCII ::= #[
   62,3,186,171,48,
   4,3,7,0,0,
   63,6,56,2,7,30,16,0,
+  4,3,7,0,0,
+  64,7,56,10,13,40,54,227,128,
   4,3,7,0,0,
   65,5,56,10,7,74,5,
   4,3,7,0,0,
@@ -219,6 +227,8 @@ ASCII ::= #[
   124,2,186,32,
   4,3,7,0,0,
   125,5,48,60,103,215,64,
+  4,3,2,0,5,
+  126,2,48,40,
   0xff]
 
 /**

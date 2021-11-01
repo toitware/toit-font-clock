@@ -5,7 +5,7 @@ COPYRIGHT Copyright (C) 2021 by Toitware ApS.  Use of this source code is govern
 COMMENT A fixed width font in a segment LCD style.
 COMMENT The width of the characters is 4 for a single
 COMMENT   pixel character gap.
-COMMENT Many punctuation characters are missing
+COMMENT Many punctuation characters are unreadable
 COMMENT   like #, $, @, etc.  The only non-ASCII character is the
 COMMENT   degree sign.
 COMMENT Some letters substitute lower case for upper case and vice
@@ -41,6 +41,30 @@ A0
 A0
 ENDCHAR
 
+STARTCHAR hash
+ENCODING 35
+DWIDTH 4 0
+BBX 3 5 0 0
+BITMAP
+A0
+E0
+A0
+E0
+A0
+ENDCHAR
+
+STARTCHAR dollar
+ENCODING 36
+DWIDTH 4 0
+BBX 3 5 0 0
+BITMAP
+E0
+C0
+E0
+60
+E0
+ENDCHAR
+
 STARTCHAR percent
 ENCODING 37
 DWIDTH 4 0
@@ -51,6 +75,18 @@ A0
 40
 80
 A0
+ENDCHAR
+
+STARTCHAR ampersand
+ENCODING 38
+DWIDTH 4 0
+BBX 3 5 0 0
+BITMAP
+C0
+C0
+E0
+A0
+E0
 ENDCHAR
 
 STARTCHAR quotesingle
@@ -65,7 +101,7 @@ ENDCHAR
 STARTCHAR parenleft
 ENCODING 40
 DWIDTH 4 0
-BBX 2 5 1 0 
+BBX 2 5 1 0
 BITMAP
 40
 80
@@ -77,13 +113,23 @@ ENDCHAR
 STARTCHAR parenright
 ENCODING 41
 DWIDTH 4 0
-BBX 2 5 0 0 
+BBX 2 5 0 0
 BITMAP
 80
 40
 40
 40
 80
+ENDCHAR
+
+STARTCHAR asterisk
+ENCODING 42
+DWIDTH 4 0
+BBX 3 3 0 2
+BITMAP
+A0
+40
+A0
 ENDCHAR
 
 STARTCHAR plus
@@ -266,7 +312,7 @@ ENDCHAR
 STARTCHAR semicolon
 ENCODING 59
 DWIDTH 4 0
-BBX 2 4 0 0 
+BBX 2 4 0 0
 BITMAP
 40
 00
@@ -314,6 +360,18 @@ E0
 40
 00
 40
+ENDCHAR
+
+STARTCHAR at
+ENCODING 64
+DWIDTH 4 0
+BBX 3 5 0 0
+BITMAP
+E0
+A0
+E0
+E0
+E0
 ENDCHAR
 
 STARTCHAR A
@@ -1020,6 +1078,15 @@ C0
 60
 40
 C0
+ENDCHAR
+
+STARTCHAR tilde
+ENCODING 126
+DWIDTH 4 0
+BBX 3 2 0 3
+BITMAP
+C0
+60
 ENDCHAR
 
 STARTCHAR degree

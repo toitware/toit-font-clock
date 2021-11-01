@@ -16,15 +16,15 @@
 /**
 The characters from the ASCII Unicode block in the Digital Clock 3x7 font.
   (See https://en.wikipedia.org/wiki/Basic_Latin_(Unicode_block) )
-This block has 95 assigned code points, and 89 of
-  them are present in this font.
+This block has 95 assigned code points, and they are all
+  present in this font.
   This block contains characters in the range 0x0000-0x007f.
-  The bitmaps for this block in this font take up about 1183 bytes.
+  The bitmaps for this block in this font take up about 1257 bytes.
 */
 ASCII ::= #[
   0x97,0xf0,0x17,0x70,
-  0x9f,0x4,0x0,0x0,
-  0x31,0x9f,0xc0,0x13,0xaf,0x9d,0xd,0x76,0x4c,0xf1,0x47,0x3e,0x1f,0xa7,0x39,0x98,0x2a,0x94,0x86,0x82,0xf5,0xe0,0xcb,0xe5,0x8b,0xfb,0x67,0xe1,0xc1,0x51,0xf5,0x9c,
+  0xe9,0x4,0x0,0x0,
+  0xbe,0xd,0x86,0x83,0x8a,0x68,0x6b,0x7f,0x7,0x23,0x98,0xbd,0xf6,0xd1,0xb,0x6e,0xf8,0x67,0x3f,0x75,0x67,0xa5,0x9f,0xc5,0x79,0xf1,0xb,0x4,0xd4,0x68,0x9b,0xe6,
   0x92, 'D','i','g','i','t','a','l',' ','C','l','o','c','k',' ',
   '3','x','7',0,
   0x9d, 'C','o','p','y','r','i','g','h','t',' ','(','C',')',' ',
@@ -45,14 +45,22 @@ ASCII ::= #[
   33,3,186,14,184,
   4,3,2,0,5,
   34,2,40,16,
+  4,3,6,0,0,
+  35,5,40,52,160,116,160,
+  4,3,7,0,0,
+  36,8,16,47,184,224,8,14,15,128,
   4,3,7,0,0,
   37,6,40,2,7,49,40,0,
+  4,3,7,0,0,
+  38,5,48,22,74,7,64,
   2,1,2,0,5,
   39,1,185,
   3,2,7,0,0,
   40,3,16,50,10,
   3,2,7,0,0,
   41,3,186,160,192,
+  4,3,5,0,2,
+  42,5,16,10,12,40,48,
   4,3,3,0,2,
   43,3,16,47,248,
   2,2,2,255,0,
@@ -95,6 +103,8 @@ ASCII ::= #[
   62,3,186,171,48,
   4,3,7,0,0,
   63,6,56,2,7,30,16,0,
+  4,3,7,0,0,
+  64,7,56,10,13,40,54,227,128,
   4,3,7,0,0,
   65,5,56,10,7,74,5,
   4,3,7,0,0,
@@ -217,6 +227,8 @@ ASCII ::= #[
   124,2,186,32,
   4,3,7,0,0,
   125,5,48,60,103,215,64,
+  4,3,2,0,5,
+  126,2,48,40,
   0xff]
 
 /**
