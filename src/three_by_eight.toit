@@ -1,13 +1,15 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-// A font where most things are 3x7 in a segment LCD style.
-// The width of the characters is normally 4 for a single
-//   pixel character gap.
-// Spaces are only one pixel wide for precise placement.
-// Punctuation is variable width, but many are missing
-//   like #, $, @, etc.  The only non-ASCII character is the
-//   degree sign.
-// Descenders go one pixel below the line making the font 3x8.
+/**
+A font where most things are 3x7 in a segment LCD style.
+The width of the characters is normally 4 for a single
+  pixel character gap.
+Spaces are only one pixel wide for precise placement.
+Punctuation is variable width, but many are missing
+  like #, $, @, etc.  The only non-ASCII character is the
+  degree sign.
+Descenders go one pixel below the line making the font 3x8.
+*/
 
 /// Bitmaps for the Digital Clock 3x7 font
 
