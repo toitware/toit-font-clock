@@ -1,4 +1,5 @@
-# toit-font-clock
+# Font Clock
+
 Very small fonts for digital clocks etc.
 
 Each font is available in a mostly-fixed-width version where
