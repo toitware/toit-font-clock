@@ -2,20 +2,12 @@
 
 // A font where most things are 3x7 in a segment LCD style.
 // The width of the characters is normally 4 for a single
-// pixel character gap.
+//   pixel character gap.
 // Spaces are only one pixel wide for precise placement.
 // Punctuation is variable width, but many are missing
-// like #, $, @, etc.  The only non-ASCII character is the
-// degree sign.
+//   like #, $, @, etc.  The only non-ASCII character is the
+//   degree sign.
 // Descenders go one pixel below the line making the font 3x8.
-// Doesn't really work in this style.
-// Looks the same as zero.
-// Doesn't really work in this style.
-// Uses lower case r.
-// Looks the same as 5.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
 
 /// Bitmaps for the Digital Clock 3x7 font
 

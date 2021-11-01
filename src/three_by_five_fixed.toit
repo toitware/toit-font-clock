@@ -2,30 +2,13 @@
 
 // A fixed width font in a segment LCD style.
 // The width of the characters is 4 for a single
-// pixel character gap.
+//   pixel character gap.
 // Many punctuation characters are missing
-// like #, $, @, etc.  The only non-ASCII character is the
-// degree sign.
+//   like #, $, @, etc.  The only non-ASCII character is the
+//   degree sign.
 // Some letters substitute lower case for upper case and vice
-// versa.
+//   versa.
 // There are no descenders.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Looks the same as zero.
-// Doesn't really work in this style.
-// Uses lower case r.
-// Looks the same as 5.
-// Uses capital A.
-// Uses capital E.
-// Uses capital F.
-// Uses capital G.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Uses capital S, looks like a 5.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Uses capital Z, looks like a 2.
 
 /// Bitmaps for the Digital Clock 3x5 fixed width font
 

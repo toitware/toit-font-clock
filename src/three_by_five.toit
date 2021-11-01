@@ -2,31 +2,14 @@
 
 // A font where most things are 3x5 in a segment LCD style.
 // The width of the characters is normally 4 for a single
-// pixel character gap.
+//   pixel character gap.
 // Spaces are only one pixel wide for precise placement.
 // Punctuation is variable width, but many are missing
-// like #, $, @, etc.  The only non-ASCII character is the
-// degree sign.
+//   like #, $, @, etc.  The only non-ASCII character is the
+//   degree sign.
 // Some letters substitute lower case for upper case and vice
-// versa.
+//   versa.
 // There are no descenders.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Looks the same as zero.
-// Doesn't really work in this style.
-// Uses lower case r.
-// Looks the same as 5.
-// Uses capital A.
-// Uses capital E.
-// Uses capital F.
-// Uses capital G.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Uses capital S, looks like a 5.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Doesn't really work in this style.
-// Uses capital Z, looks like a 2.
 
 /// Bitmaps for the Digital Clock 3x5 font
 

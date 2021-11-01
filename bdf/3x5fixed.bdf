@@ -4,12 +4,12 @@ COPYRIGHT Copyright (C) 2021 by Toitware ApS.  Use of this source code is govern
 
 COMMENT A fixed width font in a segment LCD style.
 COMMENT The width of the characters is 4 for a single
-COMMENT pixel character gap.
+COMMENT   pixel character gap.
 COMMENT Many punctuation characters are missing
-COMMENT like #, $, @, etc.  The only non-ASCII character is the
-COMMENT degree sign.
+COMMENT   like #, $, @, etc.  The only non-ASCII character is the
+COMMENT   degree sign.
 COMMENT Some letters substitute lower case for upper case and vice
-COMMENT versa.
+COMMENT   versa.
 COMMENT There are no descenders.
 
 STARTCHAR space
@@ -438,7 +438,6 @@ BITMAP
 E0
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR K
 ENCODING 75
 DWIDTH 4 0
@@ -463,7 +462,6 @@ BITMAP
 E0
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR M
 ENCODING 77
 DWIDTH 4 0
@@ -488,7 +486,6 @@ A0
 A0
 ENDCHAR
 
-COMMENT Looks the same as zero.
 STARTCHAR O
 ENCODING 79
 DWIDTH 4 0
@@ -513,7 +510,6 @@ E0
 80
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR Q
 ENCODING 81
 DWIDTH 4 0
@@ -526,7 +522,6 @@ E0
 E0
 ENDCHAR
 
-COMMENT Uses lower case r.
 STARTCHAR R
 ENCODING 82
 DWIDTH 4 0
@@ -537,7 +532,6 @@ E0
 80
 ENDCHAR
 
-COMMENT Looks the same as 5.
 STARTCHAR S
 ENCODING 83
 DWIDTH 4 0
@@ -700,7 +694,6 @@ BITMAP
 40
 ENDCHAR
 
-COMMENT Uses capital A.
 STARTCHAR a
 ENCODING 97
 DWIDTH 4 0
@@ -747,7 +740,6 @@ A0
 E0
 ENDCHAR
 
-COMMENT Uses capital E.
 STARTCHAR e
 ENCODING 101
 DWIDTH 4 0
@@ -760,7 +752,6 @@ C0
 E0
 ENDCHAR
 
-COMMENT Uses capital F.
 STARTCHAR f
 ENCODING 102
 DWIDTH 4 0
@@ -773,7 +764,6 @@ C0
 80
 ENDCHAR
 
-COMMENT Uses capital G.
 STARTCHAR g
 ENCODING 103
 DWIDTH 4 0
@@ -822,7 +812,6 @@ BITMAP
 80
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR k
 ENCODING 107
 DWIDTH 4 0
@@ -847,7 +836,6 @@ BITMAP
 C0
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR m
 ENCODING 109
 DWIDTH 4 0
@@ -911,7 +899,6 @@ E0
 80
 ENDCHAR
 
-COMMENT Uses capital S, looks like a 5.
 STARTCHAR s
 ENCODING 115
 DWIDTH 4 0
@@ -946,7 +933,6 @@ A0
 E0
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR v
 ENCODING 118
 DWIDTH 4 0
@@ -957,7 +943,6 @@ A0
 40
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR w
 ENCODING 119
 DWIDTH 4 0
@@ -968,7 +953,6 @@ E0
 E0
 ENDCHAR
 
-COMMENT Doesn't really work in this style.
 STARTCHAR x
 ENCODING 120
 DWIDTH 4 0
@@ -990,7 +974,6 @@ E0
 E0
 ENDCHAR
 
-COMMENT Uses capital Z, looks like a 2.
 STARTCHAR z
 ENCODING 122
 DWIDTH 4 0
