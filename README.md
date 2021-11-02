@@ -19,26 +19,26 @@ the 3x7 font, but with a one-pixel descender on j, g, p, q
 and y.
 
 ## `three_by_eight_proportional`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x8proportional.png?raw=true)
+![three by eight proportional font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x8proportional.png?raw=true)
 
 ## `three_by_eight`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x8.png?raw=true)
+![three by eight font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x8.png?raw=true)
 
 ## `three_by_eight_fixed`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x8fixed.png?raw=true)
+![three by eight fixed font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x8fixed.png?raw=true)
 
 ## `three_by_seven`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x7.png?raw=true)
+![three by seven font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x7.png?raw=true)
 
 ## `three_by_seven_fixed`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x7fixed.png?raw=true)
+![three by seven fixed font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x7fixed.png?raw=true)
 
 ## `three_by_five_proportional`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x5proportional.png?raw=true)
+![three by five proportional font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x5proportional.png?raw=true)
 
 ## `three_by_five`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x5.png?raw=true)
+![three by five font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x5.png?raw=true)
 
 ## `three_by_five_fixed`
-![alt text](https://github.com/toitware/toit-font-clock/blob/main/images/scaled3x5fixed.png?raw=true)
+![three by five fixed font](https://github.com/toitware/toit-font-clock/blob/3x8/images/scaled3x5fixed.png?raw=true)
 
