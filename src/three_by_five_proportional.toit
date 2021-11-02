@@ -236,16 +236,23 @@ ASCII ::= #[
 /**
 The characters from the Latin-1 Supplement Unicode block in the Digital Clock 3x5 proportional width font.
   (See https://en.wikipedia.org/wiki/Latin-1_Supplement_%28Unicode_block%29 )
-This block has 96 assigned code points, but only 1 of
-  them is present in this font:
+This block has 96 assigned code points, but only 8 of
+  them are present in this font:
+  zerowidthperiod,
+  zerowidthlowperiod,
+  nospacebeforecolon,
+  nospaceaftercolon,
+  zerowidthcolon,
+  narrowone,
+  narrowtwo, and
   degree.
   This block contains characters in the range 0x0080-0x00ff.
-  The bitmaps for this block in this font take up about 236 bytes.
+  The bitmaps for this block in this font take up about 306 bytes.
 */
 LATIN_1_SUPPLEMENT ::= #[
   0x97,0xf0,0x17,0x70,
-  0xec,0x0,0x0,0x0,
-  0x15,0xbf,0x9a,0xa1,0x7d,0x9f,0x79,0xf8,0xf9,0x3c,0xa6,0x9e,0x1b,0xe6,0x52,0xae,0xc9,0x2f,0xe,0xe4,0x58,0xa8,0xbf,0x20,0xd3,0x55,0x32,0xe7,0x3e,0x66,0x50,0x85,
+  0x32,0x1,0x0,0x0,
+  0x8e,0x5,0x87,0x31,0xc3,0xe7,0xb4,0xec,0x91,0x6b,0xa8,0xd8,0x61,0x14,0x25,0x45,0x61,0x15,0x90,0x90,0x99,0xba,0xc3,0x4c,0x1d,0x5f,0xe2,0xcd,0x3a,0x59,0x8d,0x2,
   0x92, 'D','i','g','i','t','a','l',' ','C','l','o','c','k',' ',
   '3','x','5',' ','p','r','o','p','o','r','t','i','o','n','a','l',' ',
   'w','i','d','t','h',0,
@@ -261,6 +268,20 @@ LATIN_1_SUPPLEMENT ::= #[
   102,0x80,0x0,0x0,
   116,0xff,0x0,0x0,
   0,
+  0,1,1,255,0,
+  128,128,1,184,
+  0,1,1,255,255,
+  128,129,1,184,
+  1,1,3,255,0,
+  128,130,2,187,174,
+  1,1,3,0,0,
+  128,131,2,187,174,
+  0,1,3,255,0,
+  128,132,2,187,174,
+  2,1,5,0,0,
+  128,133,2,186,0,
+  3,2,5,0,0,
+  128,134,4,48,60,220,144,
   4,3,3,0,2,
   128,176,3,56,10,13,
   0xff]
