@@ -1,16 +1,18 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-// A fixed width font in a 7-segment LCD style.
-// The width of the characters is 4 for a single
-//   pixel character gap.
-// Many punctuation characters are unreadable
-//   like #, $, @, etc.  The only non-ASCII character is the
-//   degree sign.
-// Some letters substitute lower case for upper case and vice
-//   versa, inspired by the style of using 7-segment LCDs for
-//   non-digits:
-//   https://en.wikichip.org/wiki/seven-segment_display/representing_letters
-// There are no descenders.
+/**
+A fixed width font in a 7-segment LCD style.
+The width of the characters is 4 for a single
+  pixel character gap.
+Many punctuation characters are unreadable
+  like #, $, @, etc.  The only non-ASCII character is the
+  degree sign.
+Some letters substitute lower case for upper case and vice
+  versa, inspired by the style of using 7-segment LCDs for
+  non-digits:
+  https://en.wikichip.org/wiki/seven-segment_display/representing_letters
+There are no descenders.
+*/
 
 /// Bitmaps for the Digital Clock 3x5 fixed width font
 

@@ -1,12 +1,14 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-// A font where numbers are 3x5 in a 7-segment LCD style.
-// The other characters are proportional and do their best
-//   with only 5 pixels of height, three for lower case.
-//   's' and 'e' are hard to read.
-// The only non-ASCII character is the degree sign.
-// There are no descenders so letters with descenders
-//   are 4 or 5 pixels high.
+/**
+A font where numbers are 3x5 in a 7-segment LCD style.
+The other characters are proportional and do their best
+  with only 5 pixels of height, three for lower case.
+  's' and 'e' are hard to read.
+The only non-ASCII character is the degree sign.
+There are no descenders so letters with descenders
+  are 4 or 5 pixels high.
+*/
 
 /// Bitmaps for the Digital Clock 3x5 proportional width font
 

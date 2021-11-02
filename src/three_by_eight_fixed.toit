@@ -1,13 +1,15 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-// A fixed width font in a segment LCD style.
-// The width of the characters is 4 for a single
-//   pixel character gap.
-// Many punctuation characters are missing
-//   like #, $, @, etc.  The only non-ASCII character is the
-//   degree sign.
-// There are no descenders.
-// Descenders go one pixel below the line making the font 3x8.
+/**
+A fixed width font in a segment LCD style.
+The width of the characters is 4 for a single
+  pixel character gap.
+Many punctuation characters are missing
+  like #, $, @, etc.  The only non-ASCII character is the
+  degree sign.
+There are no descenders.
+Descenders go one pixel below the line making the font 3x8.
+*/
 
 /// Bitmaps for the Digital Clock 3x8 fixed width font
 

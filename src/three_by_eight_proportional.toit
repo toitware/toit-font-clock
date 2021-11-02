@@ -1,11 +1,13 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-// A font where numbers are 3x7 in a 7-segment LCD style.
-// The other characters are proportional and do their best
-//   with only 7 pixels of height, 4 for lower case.
-//   's' and 'e' are hard to read.
-// The only non-ASCII character is the degree sign.
-// Descenders go one pixel below the line making the font 3x8.
+/**
+A font where numbers are 3x7 in a 7-segment LCD style.
+The other characters are proportional and do their best
+  with only 7 pixels of height, 4 for lower case.
+  's' and 'e' are hard to read.
+The only non-ASCII character is the degree sign.
+Descenders go one pixel below the line making the font 3x8.
+*/
 
 /// Bitmaps for the Digital Clock 3x8 proportional width font
 
