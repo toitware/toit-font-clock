@@ -1,14 +1,16 @@
 // Copyright: Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
 /**
-A fixed width font in a segment LCD style.
+A fixed width font in a 7-segment LCD style.
 The width of the characters is 4 for a single
   pixel character gap.
 Many punctuation characters are unreadable
   like #, $, @, etc.  The only non-ASCII character is the
   degree sign.
 Some letters substitute lower case for upper case and vice
-  versa.
+  versa, inspired by the style of using 7-segment LCDs for
+  non-digits:
+  https://en.wikichip.org/wiki/seven-segment_display/representing_letters
 There are no descenders.
 */
 
@@ -22,12 +24,12 @@ The characters from the ASCII Unicode block in the Digital Clock 3x5 fixed width
 This block has 95 assigned code points, and they are all
   present in this font.
   This block contains characters in the range 0x0000-0x007f.
-  The bitmaps for this block in this font take up about 1235 bytes.
+  The bitmaps for this block in this font take up about 1236 bytes.
 */
 ASCII ::= #[
   0x97,0xf0,0x17,0x70,
-  0xd3,0x4,0x0,0x0,
-  0x82,0x82,0x1a,0x82,0xf4,0x7d,0x18,0x19,0x40,0xe5,0xb8,0x44,0x62,0xd3,0x92,0x67,0x4c,0x4c,0x4,0x8b,0x36,0x9a,0xe8,0xee,0xb7,0x80,0x94,0x61,0x36,0x87,0xa6,0x19,
+  0xd4,0x4,0x0,0x0,
+  0xa6,0x99,0xb4,0x44,0x52,0xd3,0xb2,0xa5,0x7,0x4e,0x72,0x25,0x86,0x4d,0xef,0x85,0x15,0xdb,0xd8,0x2d,0x87,0x81,0x74,0xe2,0xaf,0x5b,0x2e,0x2e,0x8d,0x17,0xed,0x85,
   0x92, 'D','i','g','i','t','a','l',' ','C','l','o','c','k',' ',
   '3','x','5',' ','f','i','x','e','d',' ','w','i','d','t','h',0,
   0x9d, 'C','o','p','y','r','i','g','h','t',' ','(','C',')',' ',
@@ -72,11 +74,11 @@ ASCII ::= #[
   45,2,56,0,
   4,1,1,1,0,
   46,1,184,
-  4,4,3,0,0,
+  4,3,5,0,0,
   47,3,8,28,196,
   4,3,5,0,0,
   48,4,56,10,5,208,
-  4,1,5,1,0,
+  4,1,5,2,0,
   49,2,186,0,
   4,3,5,0,0,
   50,6,56,2,3,130,227,128,
@@ -93,7 +95,7 @@ ASCII ::= #[
   4,3,5,0,0,
   56,5,56,10,13,40,52,
   4,3,5,0,0,
-  57,5,56,10,13,8,16,
+  57,6,56,10,13,8,14,0,
   4,1,3,1,1,
   58,2,187,174,
   4,2,4,0,0,
@@ -127,7 +129,7 @@ ASCII ::= #[
   4,3,5,0,0,
   73,4,56,62,91,192,
   4,3,5,0,0,
-  74,4,8,21,56,0,
+  74,4,8,20,160,208,
   4,3,5,0,0,
   75,5,40,19,0,160,64,
   4,3,5,0,0,
@@ -162,7 +164,7 @@ ASCII ::= #[
   90,6,56,2,3,130,227,128,
   4,2,5,1,0,
   91,3,48,49,100,
-  4,4,5,0,0,
+  4,3,5,0,0,
   92,3,185,170,64,
   4,2,5,0,0,
   93,3,48,60,93,

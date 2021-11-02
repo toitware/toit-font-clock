@@ -4,7 +4,7 @@
 A fixed width font in a segment LCD style.
 The width of the characters is 4 for a single
   pixel character gap.
-Many punctuation characters are unreadable
+Many punctuation characters are missing
   like #, $, @, etc.  The only non-ASCII character is the
   degree sign.
 There are no descenders.
@@ -21,12 +21,12 @@ The characters from the ASCII Unicode block in the Digital Clock 3x8 fixed width
 This block has 95 assigned code points, and they are all
   present in this font.
   This block contains characters in the range 0x0000-0x007f.
-  The bitmaps for this block in this font take up about 1269 bytes.
+  The bitmaps for this block in this font take up about 1270 bytes.
 */
 ASCII ::= #[
   0x97,0xf0,0x17,0x70,
-  0xf5,0x4,0x0,0x0,
-  0x80,0xc7,0x94,0x9,0x50,0x5d,0xe3,0x13,0xde,0x7b,0x3e,0x11,0x1,0x30,0x5,0xc1,0xfe,0x16,0xba,0x60,0xf,0xc4,0xda,0x82,0xee,0x91,0x5b,0xf0,0x7,0xcf,0x7b,0x6c,
+  0xf6,0x4,0x0,0x0,
+  0xb9,0x6,0xb0,0x73,0xca,0xa5,0x76,0xdc,0x1f,0x97,0xf1,0x75,0x50,0x37,0x70,0x6f,0xe7,0xd7,0xcc,0xb4,0x6a,0xbd,0x22,0xb,0x18,0x7f,0xd3,0x48,0x3c,0x26,0x90,0x65,
   0x92, 'D','i','g','i','t','a','l',' ','C','l','o','c','k',' ',
   '3','x','8',' ','f','i','x','e','d',' ','w','i','d','t','h',0,
   0x9d, 'C','o','p','y','r','i','g','h','t',' ','(','C',')',' ',
@@ -61,8 +61,8 @@ ASCII ::= #[
   40,3,16,50,10,
   4,2,7,0,0,
   41,3,186,160,192,
-  4,3,5,0,2,
-  42,5,16,10,12,40,48,
+  4,3,3,0,4,
+  42,3,40,48,160,
   4,3,3,0,2,
   43,3,16,47,248,
   4,2,2,0,0,
@@ -75,7 +75,7 @@ ASCII ::= #[
   47,4,8,28,92,64,
   4,3,7,0,0,
   48,4,56,10,8,52,
-  4,1,7,1,0,
+  4,1,7,2,0,
   49,2,186,32,
   4,3,7,0,0,
   50,7,56,2,4,224,185,56,0,
@@ -92,7 +92,7 @@ ASCII ::= #[
   4,3,7,0,0,
   56,6,56,10,7,74,7,64,
   4,3,7,0,0,
-  57,5,56,10,7,66,5,
+  57,6,56,10,7,66,4,224,
   4,1,3,1,1,
   58,2,187,174,
   4,2,4,0,0,
@@ -158,7 +158,7 @@ ASCII ::= #[
   4,3,7,0,0,
   89,4,40,23,126,80,
   4,3,7,0,0,
-  90,5,56,62,106,228,224,
+  90,6,56,2,7,49,56,0,
   4,2,7,1,0,
   91,3,48,50,9,
   4,4,7,0,0,
@@ -216,11 +216,11 @@ ASCII ::= #[
   4,3,4,0,0,
   118,3,40,23,0,
   4,3,4,0,0,
-  119,3,40,29,64,
+  119,4,40,29,40,0,
   4,3,4,0,0,
   120,4,40,48,160,64,
   4,3,5,0,255,
-  121,5,40,53,8,14,0,
+  121,5,40,29,8,14,0,
   4,3,4,0,0,
   122,4,56,62,195,128,
   4,3,7,0,0,
