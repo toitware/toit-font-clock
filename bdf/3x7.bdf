@@ -2,7 +2,7 @@ STARTFONT 2.1
 FONT threebyseven
 COPYRIGHT Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-COMMENT A font where most things are 3x7 in a segment LCD style.
+COMMENT A font where most things are 3x7 in a 7-segment LCD style.
 COMMENT The width of the characters is normally 4 for a single
 COMMENT   pixel character gap.
 COMMENT Spaces are only one pixel wide for precise placement.
@@ -213,7 +213,7 @@ ENDCHAR
 STARTCHAR one
 ENCODING 49
 DWIDTH 4 0
-BBX 1 7 1 0
+BBX 1 7 2 0
 BITMAP
 80
 80
@@ -333,7 +333,7 @@ A0
 E0
 20
 20
-20
+E0
 ENDCHAR
 
 STARTCHAR colon
@@ -555,7 +555,7 @@ BITMAP
 20
 20
 20
-20
+A0
 E0
 ENDCHAR
 
@@ -776,9 +776,9 @@ DWIDTH 4 0
 BBX 3 7 0 0
 BITMAP
 E0
-40
-40
 20
+20
+40
 80
 80
 E0

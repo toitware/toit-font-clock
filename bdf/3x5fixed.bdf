@@ -2,14 +2,16 @@ STARTFONT 2.1
 FONT threebyfive
 COPYRIGHT Copyright (C) 2021 by Toitware ApS.  Use of this source code is governed by an MIT-style license that can be found in the LICENSE file.
 
-COMMENT A fixed width font in a segment LCD style.
+COMMENT A fixed width font in a 7-segment LCD style.
 COMMENT The width of the characters is 4 for a single
 COMMENT   pixel character gap.
 COMMENT Many punctuation characters are unreadable
 COMMENT   like #, $, @, etc.  The only non-ASCII character is the
 COMMENT   degree sign.
 COMMENT Some letters substitute lower case for upper case and vice
-COMMENT   versa.
+COMMENT   versa, inspired by the style of using 7-segment LCDs for
+COMMENT   non-digits:
+COMMENT   https://en.wikichip.org/wiki/seven-segment_display/representing_letters
 COMMENT There are no descenders.
 
 STARTCHAR space
@@ -194,7 +196,7 @@ ENDCHAR
 STARTCHAR one
 ENCODING 49
 DWIDTH 4 0
-BBX 1 5 1 0
+BBX 1 5 2 0
 BITMAP
 80
 80
@@ -296,7 +298,7 @@ E0
 A0
 E0
 20
-20
+E0
 ENDCHAR
 
 STARTCHAR colon
@@ -492,7 +494,7 @@ BITMAP
 20
 20
 20
-20
+A0
 E0
 ENDCHAR
 
