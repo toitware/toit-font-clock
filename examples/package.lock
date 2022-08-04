@@ -1,0 +1,22 @@
+prefixes:
+  font_clock: ..
+  host: pkg-host
+  pixel_display: toit-pixel-display
+  png_display: toit-png-display
+packages:
+  ..:
+    path: ..
+  pkg-host:
+    url: github.com/toitlang/pkg-host
+    version: 1.5.1
+    hash: ed7eb8721af5cba916da3c37b4afac13c1579ed1
+  toit-pixel-display:
+    url: github.com/toitware/toit-pixel-display
+    version: 1.6.0
+    hash: 39de82f680e27961e39ca24ba94520f21759370c
+  toit-png-display:
+    url: github.com/toitware/toit-png-display
+    version: 0.1.1
+    hash: a2aedb3c87ffc267ed1619162c8f3652c8789110
+    prefixes:
+      pixel_display: toit-pixel-display

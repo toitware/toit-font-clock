@@ -1,0 +1,12 @@
+dependencies:
+  font_clock:
+    path: ..
+  host:
+    url: github.com/toitlang/pkg-host
+    version: ^1.5.1
+  pixel_display:
+    url: github.com/toitware/toit-pixel-display
+    version: ^1.6.0
+  png_display:
+    url: github.com/toitware/toit-png-display
+    version: ^0.1.1
