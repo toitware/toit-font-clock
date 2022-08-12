@@ -33,7 +33,6 @@ make_png name font_list:
   display := TwoColorPixelDisplay driver
   display.background = WHITE
 
-
   font := Font font_list
 
   black := display.context --landscape --color=BLACK --font=font
