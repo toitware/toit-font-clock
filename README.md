@@ -47,3 +47,12 @@ and y.
 ## `three_by_five_fixed`
 ![three by five fixed font](images/scaled3x5fixed.png?raw=true)
 
+## `filled squares`
+![filled squares font](images/filled.png?raw=true)
+
+## `hollow squares`
+![hollow squares font](images/hollow.png?raw=true)
+
+## `crosses`
+![crosses font](images/crosses.png?raw=true)
+
