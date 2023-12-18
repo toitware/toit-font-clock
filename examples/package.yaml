@@ -3,10 +3,10 @@ dependencies:
     path: ..
   host:
     url: github.com/toitlang/pkg-host
-    version: ^1.5.1
+    version: ^1.11.0
   pixel_display:
     url: github.com/toitware/toit-pixel-display
-    version: ^1.6.0
+    version: ^2.1.0
   png_display:
     url: github.com/toitware/toit-png-display
-    version: ^0.3.0
+    version: ^1.0.0
