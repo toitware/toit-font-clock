@@ -16,7 +16,7 @@ cd tmp
 BDF=../bdf
 OUT=../src/
 TOIT_RUN=toit.run
-CONVERT_DIR="../tools/toit-font-tools/app/"
+CONVERT_DIR="../tools/toit-font-tools/bin/"
 CONVERT="$CONVERT_DIR/convertfont.toit $VERBOSE --doc-comments"
 
 (cd $CONVERT_DIR && toit.pkg install)
