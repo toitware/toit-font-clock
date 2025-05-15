@@ -1,4 +1,4 @@
-sdk: ^2.0.0-alpha.121
+sdk: ^2.0.0-alpha.170
 prefixes:
   font_clock: ..
   host: pkg-host
@@ -10,20 +10,20 @@ packages:
   pkg-host:
     url: github.com/toitlang/pkg-host
     name: host
-    version: 1.11.0
-    hash: 7e7df6ac70d98a02f232185add81a06cec0d77e8
+    version: 1.16.2
+    hash: ae83f761db80166a20bb38498edd009916b72563
   toit-pixel-display:
     url: github.com/toitware/toit-pixel-display
     name: pixel_display
-    version: 2.1.0
-    hash: 9319730307fb4c3d73a2c702e14b16a1b1cc3915
+    version: 2.11.0
+    hash: 59a4be9f0e6aa2321c6a032da44776f59af364b5
     prefixes:
       png-tools: toit-png-tools
   toit-png-display:
     url: github.com/toitware/toit-png-display
     name: png_display
-    version: 1.0.0
-    hash: d3d28acbb65ce0ebae0476751d0dd03e03926a15
+    version: 1.0.1
+    hash: c9a6ff7db06d1d284dfb23756731f4144e1fdd64
     prefixes:
       pixel_display: toit-pixel-display
   toit-png-tools:
